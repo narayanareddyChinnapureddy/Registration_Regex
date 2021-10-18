@@ -1,0 +1,42 @@
+section {
+	width: 400px;
+	height: 300px;
+	margin: 100px auto;
+}
+
+div {
+	width: 100%;
+	margin: 20px auto;
+}
+
+label {
+	display: block;
+	padding: 15px;
+	font-size: 20px;
+}
+
+input {
+	width: 100%;
+	padding: 15px;
+	outline: none;
+	margin-left: 20px;
+	font-size: 20px;
+	border-radius: 3px;
+}
+
+input:focus {
+	border: 1px solid lightblue;
+}
+
+button {
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	padding: 15px 25px;
+	background: rgb(99, 99, 190);
+	color: #fff;
+	font-size: 20px;
+	margin-left: 20px;
+	display: block;
+	cursor: pointer;
+}
