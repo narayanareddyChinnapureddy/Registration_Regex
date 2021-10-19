@@ -1,12 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.headings {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.headings h1 {
+	margin-bottom: 30px;
+	color: red;
+}
+
+h3 {
+	font-size: 25px;
+	text-align: center;
+	color: darkblue;
+	padding: 10px 0;
+}
+
 section {
-	width: 400px;
-	height: 300px;
-	margin: 100px auto;
+	width: 450px;
+	margin: 0px auto;
+	box-shadow: 0 8px 16px 5px rgba(0, 0, 0, 0.2);
 }
 
 div {
 	width: 100%;
-	margin: 20px auto;
+	margin: 0 auto;
+	padding: 20px;
 }
 
 label {
@@ -19,24 +43,39 @@ input {
 	width: 100%;
 	padding: 15px;
 	outline: none;
-	margin-left: 20px;
 	font-size: 20px;
 	border-radius: 3px;
 }
 
-input:focus {
+/* input:focus {
 	border: 1px solid lightblue;
+} */
+
+input[type='submit'] {
+	width: 30%;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	background-color: rgb(97, 16, 97);
+	color: #fff;
+	border-radius: 5px;
+	margin: 0 0 20px 10px;
 }
 
-button {
-	border: none;
-	border-radius: 5px;
-	outline: none;
-	padding: 15px 25px;
-	background: rgb(99, 99, 190);
-	color: #fff;
-	font-size: 20px;
-	margin-left: 20px;
-	display: block;
-	cursor: pointer;
+.is-form-valid {
+	border: 1px solid limegreen;
+	border-left: 15px solid limegreen;
+}
+
+.is-form-invalid {
+	border: 1px solid red;
+	border-left: 15px solid red;
+}
+
+.text-success {
+	color: limegreen;
+}
+
+.text-danger {
+	color: red;
 }

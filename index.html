@@ -8,21 +8,38 @@
 		<title>RegistrationRegExp</title>
 	</head>
 	<body>
-		<h1>Welcome</h1>
+		<div class="headings">
+			<h1>Welcome</h1>
+		</div>
 
 		<section>
+			<h3>Register Here</h3>
 			<form id="form">
 				<div>
-					<label for="email">Email</label>
+					<!-- <label for="email">Email</label> -->
 					<input id="email" type="email" placeholder="Email" />
-					<span></span>
+					<span id="emailFeedback"></span>
 				</div>
 				<div>
-					<label for="email">Password</label>
-					<input id="password" type="password" placeholder="Password" />
-					<span></span>
+					<!-- <label for="email">Mobile</label> -->
+					<input id="mobile" type="number" placeholder="Mobile" />
+					<span id="mobileFeedback"></span>
 				</div>
-				<button>Login</button>
+				<div>
+					<!-- <label for="password">Password</label> -->
+					<input id="password" type="password" placeholder="Password" />
+					<span id="passwordFeedback"></span>
+				</div>
+				<div>
+					<!-- <label for="confirmPassword">Confirm Password</label> -->
+					<input
+						id="confirmPassword"
+						type="password"
+						placeholder="Confirm Password"
+					/>
+					<span id="confirmPasswordFeedback"></span>
+				</div>
+				<input type="submit" value="Sign Up" />
 			</form>
 		</section>
 
