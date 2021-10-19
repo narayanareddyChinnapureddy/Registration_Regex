@@ -33,6 +33,11 @@ div {
 	padding: 20px;
 }
 
+div#notice {
+	padding: 0;
+	margin-top: 10px;
+}
+
 label {
 	display: block;
 	padding: 15px;
